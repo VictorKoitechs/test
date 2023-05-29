@@ -8,7 +8,7 @@ import { StripeConfigContext } from "./context/stripe-config.context";
 import { loadStripe } from "@stripe/stripe-js";
 import { stripeApi } from "./api/stripe";
 
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
